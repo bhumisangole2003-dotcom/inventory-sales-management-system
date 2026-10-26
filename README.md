@@ -134,10 +134,6 @@ cd backend
 uvicorn main:app --reload
 ```
 
-The backend will be available at:
-
-- API: http://127.0.0.1:8000
-- Interactive API documentation: http://127.0.0.1:8000/docs
 
 ### Terminal 2: Start the Streamlit Frontend
 
@@ -154,7 +150,6 @@ Streamlit will display a local URL in the terminal. Open that URL in your browse
 
 The application uses the database URL configured in `backend/database.py`.
 
-- **SQLite:** Use the configured SQLite database for local development.
 - **PostgreSQL:** To use PostgreSQL, configure the database connection URL and install the appropriate PostgreSQL driver.
 
 For PostgreSQL, the driver can be installed with:
