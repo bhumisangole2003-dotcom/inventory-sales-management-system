@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+streamlit
+requests
+pandas
+# psycopg2-binary   # uncomment only if you switch to PostgreSQL

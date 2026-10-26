@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+my_env/
+.env
+
+# IDE and cache
+.vscode/
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local database files
+*.sqlite3
+*.db
